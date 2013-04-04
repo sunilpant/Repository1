@@ -1,0 +1,129 @@
+/*
+** Grid Mode
+*/
+
+table.bgrid {
+	background-color: #C0C0A0;
+}
+
+table.bgrid tr.gridheader td {
+	font-weight: bold;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 4px;
+	padding-right: 4px;
+	color: #000000;
+}
+
+table.bgrid tr.gridheader a, table.bgrid tr.gridheader a:visited, table.bgrid tr.gridheader a:active {
+	text-decoration: none;
+	color: #0000FF;
+	background-color: transparent;
+}
+
+table.bgrid tr.gridheader a:hover {
+	text-decoration: underline;
+}
+
+table.bgrid tr.gridrow td {
+	background-color: #F0F0C0;
+	padding-left: 4px;
+	padding-right: 4px;
+	vertical-align: top;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+table.bgrid tr.gridrow td.title {
+	text-align: right;
+}
+
+table.bgrid tr.gridfooter {}
+
+table.bgrid tr.gridfooter td {
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+/*
+** Edit mode
+*/
+
+table.bgrid tr.editrow td {
+	vertical-align: top;
+	background-color: #F0F0C0;
+	padding-left: 4px;
+	padding-right: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+table.bgrid tr.editfooter td {
+	padding: 4px;
+}
+
+table.bgrid tr.editrow td.title {
+	font-weight: bold;
+	padding-top: 3px;
+}
+
+table.bgrid input, table.bgrid textarea, table.bgrid select {
+	width: 400px;
+}
+
+table.bgrid textarea {
+	height: 100px;
+}
+
+table.bgrid input.disabled {
+	background-color: transparent;
+}
+
+/*
+** "Buttons"
+*/
+
+table.bgrid a.button, table.bgrid a.button:active, table.bgrid a.button:visited {
+	border-left: 1px solid #00F;
+	border-top: 1px solid #00F;
+	border-right: 1px solid #008;
+	border-bottom: 1px solid #008;
+	background-color: #00C;
+	text-decoration: none;
+	width: 60px;
+	text-align: center;
+	color: white;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	font-weight: bold;
+	font-family: tahoma;
+}
+
+table.bgrid a.button:hover { 
+	border-left: 1px solid #008;
+	border-top: 1px solid #008;
+	border-right: 1px solid #00F;
+	border-bottom: 1px solid #00F;
+	text-decoration: none;
+}
+
+table.bgrid a.smallbutton, table.bgrid a.smallbutton:active, table.bgrid a.smallbutton:visited {
+	border: 1px solid #000000;
+	text-decoration: none;
+	padding-left: 2px;
+	padding-right: 2px;
+	text-align: center;
+	color: #000;
+	font-weight: normal;
+	font-family: tahoma;
+}
+
+table.bgrid a.smallbutton:hover { 
+	background-color: #00C;
+	text-decoration: none;
+	color: #FFF;
+	border-left: 1px solid #008;
+	border-top: 1px solid #008;
+	border-right: 1px solid #00F;
+	border-bottom: 1px solid #00F;
+}
